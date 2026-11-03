@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+build/
