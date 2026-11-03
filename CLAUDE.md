@@ -27,7 +27,7 @@ The six patterns and their scenarios:
 six patterns only where they reduce real complexity — config (Singleton or DI), report
 options (Builder), two shipping APIs (Adapter), port metadata (Flyweight), request checks
 (Chain), per-provider retry (Strategy). Deliver: README, typed contracts, unit tests, one
-integration test, a short architecture diagram. The iOS app calls it.
+integration test, a short architecture diagram. Server only (the PDF asks nothing from iOS).
 
 Grading (from the PDF): correctness and edge cases 30, type design and safe error handling 20,
 tests and failure scenarios 20, pattern choice and trade-off reasoning 20, clarity and docs 10.
@@ -55,4 +55,4 @@ design-patterns/
 ## 4. Bonus API contract
 
 To be defined here **before** building the bonus. Any endpoint, field or status is written
-here first, then implemented on the server and in the app.
+here first, then implemented on the server.
